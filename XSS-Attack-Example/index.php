@@ -7,5 +7,6 @@
     <body>
         <h1><a href="nonpersistentxss.php">Non Persistent XSS</a></h1>
         <h1><a href="persistentxss.php">Persistent XSS</a></h1>
+        <a href="#" onclick="alert('hey')">My Name</a>
     </body>
 </html>
